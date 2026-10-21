@@ -1,0 +1,10 @@
+{
+  "status": "answer",
+  "answer": "Unused products can be returned within 90 days with a receipt.",
+  "claims": [
+    {
+      "source_id": "refund",
+      "text": "Unused products can be returned within 90 days with a receipt."
+    }
+  ]
+}

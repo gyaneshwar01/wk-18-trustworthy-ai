@@ -1,0 +1,103 @@
+{
+  "case_count": 57,
+  "passed": 48,
+  "failed": 9,
+  "python_version": "3.12.3",
+  "provider": "deterministic fixtures",
+  "metrics": {
+    "injection": {
+      "tp": 5,
+      "fp": 1,
+      "tn": 23,
+      "fn": 1,
+      "n": 30,
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "false_positive_cases": [
+        "I21"
+      ],
+      "false_negative_cases": [
+        "I23"
+      ]
+    },
+    "invalid_schema": {
+      "tp": 14,
+      "fp": 0,
+      "tn": 13,
+      "fn": 0,
+      "n": 27,
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_positive_cases": [],
+      "false_negative_cases": []
+    },
+    "pii": {
+      "tp": 10,
+      "fp": 1,
+      "tn": 17,
+      "fn": 2,
+      "n": 30,
+      "precision": 0.9090909090909091,
+      "recall": 0.8333333333333334,
+      "false_positive_cases": [
+        "I26"
+      ],
+      "false_negative_cases": [
+        "I22",
+        "I29"
+      ]
+    },
+    "sensitive_output": {
+      "tp": 3,
+      "fp": 0,
+      "tn": 9,
+      "fn": 1,
+      "n": 13,
+      "precision": 1.0,
+      "recall": 0.75,
+      "false_positive_cases": [],
+      "false_negative_cases": [
+        "O22"
+      ]
+    },
+    "sensitive_topic": {
+      "tp": 5,
+      "fp": 1,
+      "tn": 23,
+      "fn": 1,
+      "n": 30,
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "false_positive_cases": [
+        "I24"
+      ],
+      "false_negative_cases": [
+        "I25"
+      ]
+    },
+    "ungrounded": {
+      "tp": 5,
+      "fp": 1,
+      "tn": 7,
+      "fn": 0,
+      "n": 13,
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "false_positive_cases": [
+        "O19"
+      ],
+      "false_negative_cases": []
+    }
+  },
+  "failed_cases": [
+    "I21",
+    "I22",
+    "I23",
+    "I24",
+    "I25",
+    "I26",
+    "I29",
+    "O19",
+    "O22"
+  ]
+}

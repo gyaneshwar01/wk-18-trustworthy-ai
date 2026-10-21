@@ -1,0 +1,2 @@
+# Python standard library only. No third-party runtime or test dependencies.
+# Verified with CPython 3.12.3; supported interpreter range: Python >=3.10,<3.14.
